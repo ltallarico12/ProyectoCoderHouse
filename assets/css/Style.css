@@ -1,0 +1,424 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.navbar{
+    grid-area: navbar;
+    background: #000756;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.enlace{
+    position: absolute;
+    padding: 12px 50px;
+}
+.logo{
+    height: 60px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li a.active, li a:hover{
+    background: #6a6ea0;
+    transition: .5s;
+}
+/*
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+*/
+#check{
+    display: none;
+}
+/*
+section{
+    background: url(fondo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+}
+*/
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "navbar navbar navbar"
+                        "header header header"
+                        "main main main"
+                        "footer footer footer";
+}
+
+
+.header{
+    grid-area: header;
+}
+.main{
+    grid-area: main;
+}
+.footer{
+    grid-area: footer;
+}
+.imagen-container{
+    background-image: url(../imagenes/index.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.imagen-containerSeguros{
+    background-image: url(../imagenes/seguros.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen-containerNosotros{
+    background-image: url(../imagenes/nosotros.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen-containerCotizar{
+    background-image: url(../imagenes/cotizar.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen-containerContactos{
+    background-image: url(../imagenes/contactos.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen{
+    width: 97%;
+    height: 300px;
+}
+.titulo-container{
+    padding: 100px 25px 25px 25px;
+    margin-top: 15px;
+}
+.titulo{
+    text-align: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 850;
+    font-size: 35px;
+    text-shadow: 2px 2px 8px #6a6ea0;
+}
+.subtitulo-container{
+    padding: 20px;
+}
+.subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafo{
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    width: 800px;
+    text-shadow: 1px 1px 2px #6a6ea0;
+}
+.parrafo-container{
+    margin: 50px 10px 5px 10px;
+    display: flex;
+    justify-content: center;
+}
+/*.imagen-container{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+*/
+
+
+
+.subTitulo-container{
+    padding: 30px;
+    margin: 15px 20px;
+}
+
+.subTitulo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.contenedor{
+    background-color: #000756;
+    height: 200px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.siguenos{
+    padding: 20px;
+    color: white;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.foot1{
+    color: white;
+    padding: 10px;
+    margin: 30px;
+    transition: all 1s;
+}
+.logoParte1{
+    padding: 10px;
+    display: inline-block;
+}
+.logoParte1:hover{
+    transform: scale(1.25);
+}
+.foot2{
+    color: white;
+    margin: 30px;
+    padding: 10px;
+}
+.logoParte2{
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.logoParte2 h5{
+    font-size: 17px;
+}
+.foot3{
+    background-color: white;
+    width: 1px;
+    height: 110px;
+}
+
+
+
+.seguros-container{
+    margin: 15px;
+    text-align: center;
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+.seguro{
+    padding: 5px;
+    margin: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 300px;
+    height: 530px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.seguro:hover{
+    transform: scale(1.15);
+}
+.seguros-container h4{
+    padding: 15px;
+}
+.seguroDesc{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+
+
+.container-nosotros{
+    padding: 20px 20px 10px 20px;
+}
+.nos1{
+    padding: 10px 20px 20px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.nos2{
+    padding: 10px 20px 20px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+
+
+/*.form-container{
+}
+*/
+.form{
+    padding: 20px;
+}
+.form1{
+    text-align: left;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 90px;
+}
+.formArriba{
+    display: flex;
+    flex-flow: row wrap;
+}
+.form1 h4{
+    padding: 15px;
+    font-size: 25px;
+}
+.form2{
+    text-align: left;
+    padding: 10px;
+    margin-left: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.form2 h4{
+    padding: 15px;
+    font-size: 25px;
+}
+.enviarForm-container{
+    padding: 25px;
+    text-align: left;
+    margin-left: 90px;
+    transition: all 1s;
+}
+.enviarForm{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    padding: 4px;
+}
+.enviarForm:hover{
+    transform: scale(1.1);
+    background-color: #000756;
+    color: white;
+    transition: 0.3s;
+}
+
+
+
+
+.contacto-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+.contacto1{
+    height: 270px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+.contacto1 ul div{
+    display: flex;
+    flex-flow: row;
+    padding: 15px;
+}
+.contacto2{
+    height: 100%;
+    margin: 10px;
+    display: flex;
+    justify-items: center;
+}
+.contacto2 ul div{
+    display: flex;
+    flex-flow: row;
+    padding: 15px;
+}
+.contacto{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+
+}
+
+@media(max-width:576px){
+    .enlace{
+        width: 100%;
+        padding: 10px;
+        margin: 0px 30%;
+        margin-top: 10px;
+        position: relative;
+    }
+    .imagen-container{
+        margin-top: 135px;
+    }
+    .parrafo-container{
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: space-between;
+    }
+    .navbar ul{
+        width: 100%;
+    }
+    .contenedor{
+        width: 100%;
+    }
+    .logo-container{
+        width: 170px;
+    }
+    .seguro{
+        width: 200px;
+        height: 800px;
+    }
+    .seguro div img{
+        width: 80px;
+    }
+}
