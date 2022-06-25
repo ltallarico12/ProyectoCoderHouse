@@ -384,13 +384,15 @@ section{
 
 }
 
-@media(max-width:576px){
+@media(max-width:768px){
     .enlace{
         width: 100%;
         padding: 10px;
-        margin: 0px 30%;
+        margin: 0px;
         margin-top: 10px;
         position: relative;
+        display: flex;
+        justify-content: center;
     }
     .imagen-container{
         margin-top: 135px;
@@ -404,15 +406,21 @@ section{
         flex-direction: column;
         height: auto;
         justify-content: space-between;
+        align-items: center;
     }
     .navbar ul{
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .contenedor{
         width: 100%;
     }
-    .logo-container{
+    .logo-container .logoParte2{
         width: 170px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .seguro{
         width: 200px;

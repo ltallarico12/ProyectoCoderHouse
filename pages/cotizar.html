@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/Style.css">
 </head>
 <body>
@@ -37,6 +38,7 @@
                 <h3 class="subTitulo">Por cotizaciones, dejanos tus datos que nos contactamos nosotros</h3>
             </div>
         </section>
+        <!--
         <section>
             <form action="" class="form-container">
                 <div class="form1">
@@ -75,6 +77,26 @@
                 </div>
             </form>
         </section>
+        -->
+        <section>
+            <form class="row justify-content-around">
+                <div class="col-11 col-md-8 mb-3">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class=" col-11 col-md-5 mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                </div>
+                <div class=" col-11 col-md-5 mb-3">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                </div>
+            </form>
+        </section>
     </main>
     <footer class="footer">
         <div class="contenedor">
@@ -106,5 +128,6 @@
     <script>
         AOS.init();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
