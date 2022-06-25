@@ -338,9 +338,8 @@ section{
 }
 .enviarForm:hover{
     transform: scale(1.1);
-    background-color: #000756;
-    color: white;
     transition: 0.3s;
+    box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 
 

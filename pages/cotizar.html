@@ -27,7 +27,7 @@
     </nav>
     -->
     <nav class="navbar navbar-expand-lg bg-light justify-content-between">
-        <h1 class="col-10 col-md-3 col-xl-3 text-center text-md-start text-xl-start display-6 m-1 p-1">NanoT<small class="text-muted">broker</small></h1>
+        <h1 class="col-10 col-md-3 col-xl-3 text-center text-md-start text-xl-start display-6 m-1 p-1" data-aos="fade-right">NanoT<small class="text-muted">broker</small></h1>
         <div class="col-10 col-md-6 col-xl-6">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -54,17 +54,25 @@
         </div>
     </nav>
     <header class="header">
+        <!--
         <div class="imagen-containerCotizar">
-            <!--<img id="imagenindex" class="imagen" src="../assets/imagenes/cotizar.jpg" alt="">-->
             <div class="titulo-container">
                 <h1 class="titulo">COTIZAR</h1>
+            </div>
+        </div>
+        -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide mt-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../assets/imagenes/carrusel41.jpg" class="d-block w-100" alt=" ...">
+                </div>
             </div>
         </div>
     </header>
     <main class="main">
         <section>
-            <div class="subTitulo-container">
-                <h3 class="subTitulo">Por cotizaciones, dejanos tus datos que nos contactamos nosotros</h3>
+            <div class="">
+                <h1 class="display-5 m-0 my-1 mb-3 p-1">Por cotizaciones<small class="text-muted">, dejanos tus datos que nos contactamos nosotros</small></h1>
             </div>
         </section>
         <!--
@@ -131,7 +139,9 @@
                     <label for="email" class="form-label">Email</label>
                     <input type="email" class="form-control" id="nombre" placeholder="Ingresar Email" required>
                 </div>
-                
+                <div class="col-10 text-center">
+                    <input class="enviarForm rounded-5 p-2" type="submit" value="Enviar">
+                </div>
             </form>
         </section>
     </main>
