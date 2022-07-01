@@ -132,6 +132,9 @@ section{
     justify-content: center;
     align-items: center;
 }
+.carrusel{
+    margin-top: 65px;
+}
 .imagen{
     width: 97%;
     height: 300px;
