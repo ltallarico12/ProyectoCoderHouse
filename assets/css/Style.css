@@ -8,22 +8,10 @@
 
 .navbar{
     grid-area: navbar;
-    background: #000756;
     height: 80px;
     width: 100%;
     position: fixed;
     z-index: 1;
-}
-.enlace{
-    position: absolute;
-    padding: 12px 50px;
-}
-.logo{
-    height: 60px;
-}
-nav ul{
-    float: right;
-    margin-right: 20px;
 }
 nav ul li{
     display: inline-block;
@@ -31,7 +19,6 @@ nav ul li{
     margin: 0 5px;
 }
 nav ul li a{
-    color: white;
     font-size: 18px;
     padding: 7px 13px;
     border-radius: 3px;
@@ -43,39 +30,18 @@ li a.active, li a:hover{
     background: #6a6ea0;
     transition: .5s;
 }
-/*
-.checkbtn{
-    font-size: 30px;
-    color: #fff;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-*/
-#check{
-    display: none;
-}
-/*
-section{
-    background: url(fondo.jpg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: calc(100vh - 80px);
-}
-*/
+
+
 
 .main-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto;
-    grid-template-areas: "navbar navbar navbar"
+    grid-template-areas:"navbar navbar navbar"
                         "header header header"
                         "main main main"
                         "footer footer footer";
 }
-
 
 .header{
     grid-area: header;
@@ -89,22 +55,39 @@ section{
 
 
 
+/*Index*/
+
 .carrusel{
     margin-top: 65px;
 }
-
-
+.mainIndex{
+    margin: 60px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.mainIndex div{
+    width: max-content;
+    margin: 20px 0px;
+}
+.mainIndex div img{
+    width: 530px;
+}
+.mainIndex div h5{
+    font-size: 40px;
+}
+.linea{
+    height: 2px;
+    width: 620px;
+    background-color: black;
+}
 
 
 .seguro{
-
     transition: all 1s;
 }
 .seguro:hover{
     transform: scale(1.15);
 }
-
-
 
 
 
@@ -169,16 +152,7 @@ section{
 
 
 
-@media(max-width:768px){
-    .enlace{
-        width: 100%;
-        padding: 10px;
-        margin: 0px;
-        margin-top: 10px;
-        position: relative;
-        display: flex;
-        justify-content: center;
-    }
+@media(max-width:1100px){
     .imagen-container{
         margin-top: 135px;
     }
@@ -187,31 +161,12 @@ section{
     }
     .navbar{
         width: 100%;
-        display: flex;
-        flex-direction: column;
         height: auto;
-        justify-content: space-between;
-        align-items: center;
     }
     .navbar ul{
         width: 100%;
         display: flex;
         justify-content: center;
     }
-    .contenedor{
-        width: 100%;
-    }
-    .logo-container .logoParte2{
-        width: 170px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .seguro{
-        width: 200px;
-        height: 800px;
-    }
-    .seguro div img{
-        width: 80px;
-    }
+
 }
