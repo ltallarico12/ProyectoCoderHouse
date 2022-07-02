@@ -92,199 +92,22 @@ section{
 .carrusel{
     margin-top: 65px;
 }
-.imagen{
-    width: 97%;
-    height: 300px;
-}
-.titulo-container{
-    padding: 100px 25px 25px 25px;
-    margin-top: 15px;
-}
-.titulo{
-    text-align: center;
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 850;
-    font-size: 35px;
-    text-shadow: 2px 2px 8px #6a6ea0;
-}
-.subtitulo-container{
-    padding: 20px;
-}
-.subtitulo{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.parrafo{
-    padding: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    color: black;
-    text-align: center;
-    width: 800px;
-    text-shadow: 1px 1px 2px #6a6ea0;
-}
-.parrafo-container{
-    margin: 50px 10px 5px 10px;
-    display: flex;
-    justify-content: center;
-}
-/*.imagen-container{
-    display: flex;
-    justify-content: center;
-    padding: 30px 0px;
-}
-*/
 
 
 
-.subTitulo-container{
-    padding: 30px;
-    margin: 15px 20px;
-}
 
-.subTitulo{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-.contenedor{
-    background-color: #000756;
-    height: 200px;
-    margin-top: 70px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.siguenos{
-    padding: 20px;
-    color: white;
-    margin-left: 20px;
-    font-size: 17px;
-}
-
-.foot1{
-    color: white;
-    padding: 10px;
-    margin: 30px;
-    transition: all 1s;
-}
-.logoParte1{
-    padding: 10px;
-    display: inline-block;
-}
-.logoParte1:hover{
-    transform: scale(1.25);
-}
-.foot2{
-    color: white;
-    margin: 30px;
-    padding: 10px;
-}
-.logoParte2{
-    padding: 10px;
-    display: inline-block;
-    text-align: center;
-}
-.logoParte2 h5{
-    font-size: 17px;
-}
-.foot3{
-    background-color: white;
-    width: 1px;
-    height: 110px;
-}
-
-
-
-.seguros-container{
-    margin: 15px;
-    text-align: center;
-    width: 90%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    justify-items: center;
-    justify-content: space-evenly;
-}
 .seguro{
-    padding: 5px;
-    margin: 15px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    width: 300px;
-    height: 530px;
-    border: 1px solid black;
-    border-radius: 10px;
+
     transition: all 1s;
 }
 .seguro:hover{
     transform: scale(1.15);
 }
-.seguros-container h4{
-    padding: 15px;
-}
-.seguroDesc{
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
 
 
 
 
-.container-nosotros{
-    padding: 20px 20px 10px 20px;
-}
-.nos1{
-    padding: 10px 20px 20px 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-.nos2{
-    padding: 10px 20px 20px 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
 
-
-
-
-/*.form-container{
-}
-*/
-.form{
-    padding: 20px;
-}
-.form1{
-    text-align: left;
-    padding: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 90px;
-}
-.formArriba{
-    display: flex;
-    flex-flow: row wrap;
-}
-.form1 h4{
-    padding: 15px;
-    font-size: 25px;
-}
-.form2{
-    text-align: left;
-    padding: 10px;
-    margin-left: 70px;
-    font-family: 'Times New Roman', Times, serif;
-    width: 50%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-}
-.form2 h4{
-    padding: 15px;
-    font-size: 25px;
-}
 .enviarForm-container{
     padding: 25px;
     text-align: left;
@@ -343,6 +166,8 @@ section{
     padding: 15px;
 
 }
+
+
 
 @media(max-width:768px){
     .enlace{
