@@ -1,0 +1,10 @@
+.botn{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 4px;
+    &:hover{
+        transform: scale(1.05);
+        transition: 0.3s;
+        box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.1);
+    }
+}
