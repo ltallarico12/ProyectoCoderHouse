@@ -1,0 +1,38 @@
+.contacto-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+.contacto1{
+    height: 270px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    ul div{
+        display: flex;
+        flex-flow: row;
+        padding: 15px;
+    }
+}
+
+.contacto2{
+    height: 100%;
+    margin: 10px;
+    display: flex;
+    justify-items: center;
+    ul div{
+        display: flex;
+        flex-flow: row;
+        padding: 15px;
+    }
+}
+
+.contacto{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 25px;
+}

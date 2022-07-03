@@ -1,36 +1,14 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
+@import "./Base/reset";
 
-.navbar{
-    grid-area: navbar;
-    height: 80px;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    ul li{
-        display: inline-block;
-        line-height: 80px;
-        margin: 0 5px;
-        a{
-            font-size: 20px;
-            padding: 7px 13px;
-            border-radius: 3px;
-            text-transform: uppercase;
-        }
-    }
-}
+@import "./layout/navbar";
 
-li a.active, li a:hover{
-    background: #6a6ea0;
-    transition: .5s;
-}
+@import "./layout/mainIndex";
 
+@import "./layout/mainSeguros";
 
+@import "./layout/mainCotizar";
+
+@import "./layout/mainContactos";
 
 .main-container{
     display: grid;
@@ -54,95 +32,7 @@ li a.active, li a:hover{
 
 
 
-/*Index*/
-
-.carrusel{
-    margin-top: 65px;
-}
-.mainIndex{
-    margin: 60px 0px;
-    display: flex;
-    justify-content: space-around;
-}
-.mainIndex div{
-    width: max-content;
-    margin: 20px 0px;
-}
-.mainIndex div img{
-    width: 530px;
-}
-.mainIndex div h5{
-    font-size: 40px;
-}
-.linea{
-    height: 2px;
-    width: 620px;
-    background-color: black;
-}
-
-
-.seguro{
-    transition: all 1s;
-}
-.seguro:hover{
-    transform: scale(1.15);
-}
-
-
-
-.enviarForm-container{
-    padding: 25px;
-    text-align: left;
-    margin-left: 90px;
-    transition: all 1s;
-}
-.enviarForm{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 23px;
-    padding: 4px;
-}
-.enviarForm:hover{
-    transform: scale(1.1);
-    transition: 0.3s;
-    box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
-}
 
 
 
 
-.contacto-container{
-    padding: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    justify-items: center;
-}
-.contacto1{
-    height: 270px;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    justify-items: center;
-}
-.contacto1 ul div{
-    display: flex;
-    flex-flow: row;
-    padding: 15px;
-}
-.contacto2{
-    height: 100%;
-    margin: 10px;
-    display: flex;
-    justify-items: center;
-}
-.contacto2 ul div{
-    display: flex;
-    flex-flow: row;
-    padding: 15px;
-}
-.contacto{
-    color: black;
-    text-decoration: none;
-    padding: 15px;
-    font-size: 25px;
-}

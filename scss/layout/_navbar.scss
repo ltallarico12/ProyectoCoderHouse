@@ -1,0 +1,23 @@
+.navbar{
+    grid-area: navbar;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+        a{
+            font-size: 20px;
+            padding: 7px 13px;
+            border-radius: 3px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+li a.active, li a:hover{
+    background: #6a6ea0;
+    transition: .5s;
+}
