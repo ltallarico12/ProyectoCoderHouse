@@ -1,6 +1,18 @@
-.seguro{
-    transition: all 1s;
-}
-.seguro:hover{
-    transform: scale(1.15);
+.seguros{
+    margin: 60px 0 70px 0;
+    div div{
+        img{
+            width: 60px;
+            padding: 5px;
+            margin: 10px;
+        }
+        div{
+            h5{
+                padding: 5px
+            }
+            p{
+                margin-top: 15px;
+            }
+        }
+    }
 }

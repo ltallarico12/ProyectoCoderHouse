@@ -15,6 +15,11 @@
         display: flex;
         flex-flow: row;
         padding: 15px;
+        align-items: center;
+        img{
+            width: 40px;
+            height: 40px;
+        }
     }
 }
 
@@ -27,6 +32,14 @@
         display: flex;
         flex-flow: row;
         padding: 15px;
+        align-items: center;
+        img{
+            width: 40px;
+            height: 40px;
+        }
+        li:hover{
+            color: $color-primario;
+        }
     }
 }
 

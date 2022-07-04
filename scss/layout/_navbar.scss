@@ -5,7 +5,6 @@
     position: fixed;
     z-index: 1;
     ul li{
-        display: inline-block;
         line-height: 80px;
         margin: 0 5px;
         a{
@@ -14,10 +13,9 @@
             border-radius: 3px;
             text-transform: uppercase;
         }
+        .active, :hover{
+            background: $color-primario;
+            transition: .5s;
+        }
     }
-}
-
-li a.active, li a:hover{
-    background: #6a6ea0;
-    transition: .5s;
 }

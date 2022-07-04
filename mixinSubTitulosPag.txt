@@ -1,0 +1,4 @@
+Entrega  >  sábado 09/07.
+
+La conisgna de misxing la podría aplicar a los titulos de cada pagina exceptuando el H1 del Index, ya que
+tiene otros atributos.
