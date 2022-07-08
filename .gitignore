@@ -1,4 +1,4 @@
 #Ignore folder named 'node_modules'
-node_modules/*
+node_modules/
 #Ignore file named 'mixinSubTitulosPag.txt'
 mixinSubTitulosPag.txt
