@@ -96,16 +96,19 @@
 .contacto-container {
   padding: 20px;
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
-  justify-items: center; }
+  align-items: center;
+  flex-wrap: nowrap; }
 
 .contacto1 {
   height: 270px;
   margin: 10px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-evenly;
-  justify-items: center; }
+  align-items: center;
+  flex-wrap: nowrap; }
   .contacto1 ul div {
     display: flex;
     flex-flow: row;

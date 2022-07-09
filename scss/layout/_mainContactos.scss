@@ -1,16 +1,11 @@
 .contacto-container{
     padding: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    justify-items: center;
+    @include propiedadesFlex(flex,row,space-evenly,center,nowrap);
 }
 .contacto1{
     height: 270px;
     margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    justify-items: center;
+    @include propiedadesFlex(flex,row,space-evenly,center,nowrap);
     ul div{
         display: flex;
         flex-flow: row;
