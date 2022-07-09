@@ -38,8 +38,9 @@
     .mainIndex div h5 {
       font-size: 40px; }
 
+/*Atrivutos para los subtitulos de las 4 paginas siguientes al index*/
 .subTitulo {
-  margin: 5px 0;
+  margin: 5px 0 70px 0;
   padding: 3px;
   font-size: 45px; }
 
@@ -65,19 +66,29 @@
     margin: 0 20px; }
 
 .botn {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 18px;
-  padding: 4px; }
+  border: none; }
+  .botn input {
+    padding: 10px;
+    width: 300px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
   .botn:hover {
     transform: scale(1.05);
     transition: 0.3s;
-    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.1); }
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.2); }
+
+.formu {
+  margin-top: 40px;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
 .holla .primero {
-  margin: 70px 0 50px 0; }
+  margin: 50px 0 50px 0; }
 
 .holla div {
   margin: 25px 5px; }
+  .holla div .form-label {
+    font-size: 20px; }
 
 .holla .botn-container {
   margin: 60px 0 100px 0; }
@@ -140,3 +151,15 @@
 
 .footer {
   grid-area: footer; }
+
+@media (max-width: 768px) {
+  .subTitulo {
+    font-size: 35px; }
+  .formu {
+    font-size: 25px; } }
+
+@media (max-width: 575px) {
+  .subTitulo {
+    font-size: 30px; }
+  .formu {
+    font-size: 20px; } }

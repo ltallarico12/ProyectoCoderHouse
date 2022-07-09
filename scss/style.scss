@@ -37,3 +37,24 @@
 .footer{
     grid-area: footer;
 }
+
+
+@media (max-width: 768px){
+
+    .subTitulo{
+        font-size: 35px;
+    }
+    .formu{
+        font-size: 25px;
+    }
+}
+@media (max-width: 575px){
+
+    .subTitulo{
+        font-size: 30px;
+    }
+    .formu{
+        font-size: 20px;
+    }
+}
+
