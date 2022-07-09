@@ -1,3 +1,9 @@
+.subTitulo{
+    margin: map-get($subTitulo , margen );
+    padding: map-get($subTitulo , padding );
+    font-size: map-get($subTitulo , fuente );
+}
+
 .seguros{
     margin: 60px 0 70px 0;
     div div{
