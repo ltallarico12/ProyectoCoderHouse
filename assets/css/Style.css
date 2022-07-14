@@ -99,7 +99,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  flex-wrap: nowrap; }
+  flex-wrap: wrap; }
 
 .contacto1 {
   height: 270px;
@@ -121,6 +121,7 @@
 .contacto2 {
   height: 100%;
   margin: 10px;
+  margin-bottom: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -142,6 +143,10 @@
   text-decoration: none;
   padding: 15px;
   font-size: 25px; }
+
+@media (max-width: 899px) {
+  .contacto1 {
+    height: 150px; } }
 
 .main-container {
   display: grid;

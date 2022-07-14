@@ -1,6 +1,6 @@
 .contacto-container{
     padding: 20px;
-    @include propiedadesFlex(flex,row,space-evenly,center,nowrap);
+    @include propiedadesFlex(flex,row,space-evenly,center,wrap);
 }
 .contacto1{
     height: 270px;
@@ -21,6 +21,7 @@
 .contacto2{
     height: 100%;
     margin: 10px;
+    margin-bottom: 40px;
     @include propiedadesFlex(flex,row,space-evenly,center,nowrap);
     ul div{
         display: flex;
@@ -42,4 +43,10 @@
     text-decoration: none;
     padding: 15px;
     font-size: 25px;
+}
+
+@media (max-width: 899px){
+    .contacto1{
+        height: 150px;
+    }
 }
