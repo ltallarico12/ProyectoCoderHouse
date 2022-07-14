@@ -11,6 +11,9 @@
   width: 100%;
   position: fixed;
   z-index: 1; }
+  .navbar h1 {
+    text-decoration: none;
+    color: black; }
   .navbar ul li {
     line-height: 80px;
     margin: 0 5px; }
@@ -25,6 +28,9 @@
 
 .carrusel {
   margin-top: 70px; }
+
+.carousel {
+  z-index: 0; }
 
 .mainIndex {
   margin: 60px 0 130px 0;
