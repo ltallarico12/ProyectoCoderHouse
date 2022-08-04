@@ -1,4 +1,5 @@
 .contacto-container{
+    margin-bottom: 110px;
     padding: 20px;
     @include propiedadesFlex(flex,row,space-evenly,center,wrap);
 }

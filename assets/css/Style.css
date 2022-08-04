@@ -33,7 +33,7 @@
   z-index: 0; }
 
 .mainIndex {
-  margin: 60px 0 130px 0;
+  margin: 60px 0 155px 0;
   display: flex;
   justify-content: space-around; }
   .mainIndex div {
@@ -51,7 +51,7 @@
   font-size: 45px; }
 
 .seguros {
-  margin: 60px 0 70px 0; }
+  margin: 60px 0 155px 0; }
   .seguros div div img {
     width: 60px;
     padding: 5px;
@@ -62,7 +62,7 @@
     margin-top: 15px; }
 
 .nos {
-  margin: 50px 0px; }
+  margin: 50px 0 140px 0; }
   .nos h5 {
     padding: 5px;
     margin: 20px 20px 5px 20px;
@@ -88,18 +88,19 @@
   font-size: 30px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
-.holla .primero {
-  margin: 50px 0 50px 0; }
-
-.holla div {
-  margin: 25px 5px; }
-  .holla div .form-label {
-    font-size: 20px; }
-
-.holla .botn-container {
-  margin: 60px 0 100px 0; }
+.holla {
+  margin-bottom: 95px; }
+  .holla .primero {
+    margin: 50px 0 50px 0; }
+  .holla div {
+    margin: 25px 5px; }
+    .holla div .form-label {
+      font-size: 20px; }
+  .holla .botn-container {
+    margin: 60px 0 100px 0; }
 
 .contacto-container {
+  margin-bottom: 110px;
   padding: 20px;
   display: flex;
   flex-direction: row;
